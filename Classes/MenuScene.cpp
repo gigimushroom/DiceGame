@@ -1,5 +1,6 @@
 #include "MenuScene.h"
 #include "SingleDiceScene.h"
+#include "MultiDiceScene.h"
 
 USING_NS_CC;
 
@@ -80,5 +81,5 @@ void MenuScene::leftMenuItem(Ref* pSender)
 
 void MenuScene::rightMenuItem(Ref* pSender)
 {
-    Director::getInstance()->replaceScene(SingleDiceScene::create()); 
+    Director::getInstance()->replaceScene(MultiDiceScene::create()); 
 }

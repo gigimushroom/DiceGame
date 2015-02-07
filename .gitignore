@@ -18,6 +18,13 @@ build/
 bld/
 [Bb]in/
 [Oo]bj/
+cocos2d/
+proj.android
+proj.ios_mac
+proj.linux
+proj.wp8-xaml
+proj.win32
+
 
 # Roslyn cache directories
 *.ide/
@@ -229,3 +236,4 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+.cocos-project.json
